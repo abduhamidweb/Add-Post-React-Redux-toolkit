@@ -7,8 +7,10 @@ import AddPostForm from './features/posts/AddPostForm'
 function App() {
   return (
     <>
-      <AddPostForm/>
-      <PostsList/>
+      <div className='container'>
+        <AddPostForm />
+        <PostsList />
+      </div>
     </>
   )
 }
