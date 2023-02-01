@@ -19,7 +19,9 @@ const AddPostForm = () => {
   return (
     <>
       <section>
-        <h2 className='fs-2 text-center my-3'>Add a New Post</h2>
+        <h2 className='fs-2 text-center my-3'>
+          Add a New Post in Redux-toolki
+        </h2>
         <form className='form-control p-5'>
           <label htmlFor='postTitle'>Post Title:</label>
           <input

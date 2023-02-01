@@ -1,13 +1,17 @@
 import { createSlice } from '@reduxjs/toolkit'
 const initialState = [
-  { id: '1', title: 'learning Redux Toolkit', content: "I've bla bla" },
-  { id: '2', title: 'Slice', content: "I've bla bla bla bla" },
+  {
+    id: 1,
+    title: 'Hello world!',
+    descrbtion: "this is the first time you're doing something... ",
+    imgURL: "https://picsum.com/images/defa"
+  },
 ]
 const postSlice = createSlice({
   name: 'posts',
   initialState,
   reducers: {
-    postAdded:  (state, action) => {
+    postAdded: (state, action) => {
       state.push(action.payload)
     },
   },
